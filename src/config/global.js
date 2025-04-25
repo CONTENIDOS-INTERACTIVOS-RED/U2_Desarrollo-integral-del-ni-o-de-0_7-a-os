@@ -2,7 +2,7 @@ export default {
   global: {
     numeroUnidad: '2',
     tituloUnidad:
-      'factores de riesgo en el desarrollo integral de la primera infancia',
+      'Factores de riesgo en el desarrollo integral de la primera infancia',
   },
   menuPrincipal: {
     menu: [
