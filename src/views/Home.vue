@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad aborda el desarrollo integral del niño de 0 a 7 años desde distintas teorías psicológicas. Se analizan enfoques fundamentales como la teoría psicosexual de Freud, la sociocultural de Vygotsky, el desarrollo moral según Kohlberg, la visión sistémica-ecológica de Chomsky, el aprendizaje social de Bandura y el aprendizaje significativo de Ausubel. Cada teoría explica el papel de la biología, el entorno y la cultura en la evolución del pensamiento, lenguaje, moralidad y conducta. El enfoque integral conecta el conocimiento teórico con contextos educativos y sociales, promoviendo el desarrollo pleno del niño.
+              p.descripcion.mb-4 La unidad aborda los factores de riesgo que afectan el desarrollo integral de niños entre 0 y 7 años, organizados en dimensiones físicas, cognitivas y psicosociales. Examina variables como nutrición, sueño, estimulación cognitiva, estructura familiar, entorno escolar y salud mental. Se destacan los impactos de afecciones prenatales y postnatales, así como de la violencia, pobreza y negligencia. El documento promueve la identificación temprana de riesgos y estrategias de intervención, reforzando la importancia de entornos protectores y estimulación adecuada para el desarrollo saludable en la infancia.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

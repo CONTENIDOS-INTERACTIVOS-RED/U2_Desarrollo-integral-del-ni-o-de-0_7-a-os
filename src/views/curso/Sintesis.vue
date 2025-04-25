@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Psicología evolutiva es una disciplina que busca comprender cómo las personas cambian y se desarrollan a lo largo de su vida, abordando aspectos cognitivos, emocionales, sociales y morales. En esta unidad, se exploraron las contribuciones de diversas teorías fundamentales que ofrecen perspectivas únicas sobre el desarrollo humano y su relación con el contexto social.
+      p(data-aos="fade-up").mb-5 La unidad 2 proporcionó un análisis detallado de los factores de riesgo que impactan el desarrollo integral de los niños desde la gestación hasta los siete años. Se abordaron aspectos físicos, cognitivos y psicosociales, subrayando la importancia de identificar y mitigar estos riesgos para garantizar un crecimiento saludable y equilibrado durante esta etapa crucial.
 
       .row.justify-content-center
         .col-lg-12.mb-5

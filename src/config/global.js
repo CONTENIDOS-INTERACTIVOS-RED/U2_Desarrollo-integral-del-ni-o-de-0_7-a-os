@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Teorías y perspectivas de la psicología evolutiva',
+    numeroUnidad: '2',
+    tituloUnidad:
+      'factores de riesgo en el desarrollo integral de la primera infancia',
   },
   menuPrincipal: {
     menu: [
@@ -15,7 +16,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teoría del desarrollo de Sigmund Freud.',
+        titulo: 'Factores de riesgo en el desarrollo físico de los niños',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -23,23 +24,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Modelo sociocultural Lev Vygotsky.',
+        titulo: 'Factores de riesgo del desarrollo cognitivo infantil',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: '',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: '',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Teoría de la visión sistémica de Chomsky.',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Aprendizaje significativo.',
+        titulo: 'Factores de riesgo psicosocial',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -81,135 +87,144 @@ export default {
   referencias: [
     {
       referencia:
-        'Castellanos Urrego, S. G. (2013). Una aproximación al desarrollo psicosexual desde la perspectiva de la metapsicología freudiana.',
-      link: 'https://www.redalyc.org/pdf/801/80131178010.pdf',
-    },
-    {
-      referencia:
-        'Corral Íñigo, A. (2013). Psicología evolutiva I: introducción al desarrollo. Vol. I: ( ed.). UNED - Universidad Nacional de Educación a Distancia.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/48354?page=25',
-    },
-    {
-      referencia:
-        'García Trejos, L. (2020). Principales teorías del desarrollo.',
+        'World Health Organization: WHO. (2020, 19 noviembre). Nuevas amenazas para la salud de los niños y los adolescentes.',
       link:
-        'https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1358/LEC%20PSIC%200036%202020.pdf?sequence=1&isAllowed=y',
+        'https://www.who.int/es/news-room/fact-sheets/detail/children-new-threats-to-health',
     },
     {
       referencia:
-        'Triglia, A. (2016, agosto 12). Las 5 etapas del desarrollo psicosexual de Sigmund Freud. pymOrganization.',
+        'Clínica EM. (2023). Factores que intervienen en la calidad del sueño. Clínica EM.',
       link:
-        'https://psicologiaymente.com/psicologia/etapas-desarrollo-psicosexual-sigmund-freud',
+        'https://clinicaem.com/factores-que-intervienen-en-la-calidad-del-sueno/',
     },
     {
       referencia:
-        'Carrera, B., Mazzarella, C. (2001). Vygotsky: Enfoque sociocultural. Educere, 5(13), 41-44.',
-      link: 'https://www.redalyc.org/pdf/356/35601309.pdf',
+        'De Asociación Argentina de Orientadores Familiares, V. T. L. E. (2020, 19 agosto). Factores de riesgo en la infancia. Asociación Argentina de Orientadores Familiares.',
+      link: 'https://aaofamiliares.com/2020/08/19/factores-de-riesgo/',
     },
     {
       referencia:
-        'García Trejos, L. (2020). Principales teorías del desarrollo.',
+        'Paolini, C. I., Oiberman, A., & Mansilla, M. (2017). Desarrollo cognitivo en la primera infancia: influencia de los factores de riesgo biológicos y ambientales. Subjetividad y procesos cognitivos, 21(2), 162-183.',
+      link: 'https://www.scielo.org.ar/pdf/spc/v21n2/v21n2a08.pdf',
+    },
+    {
+      referencia:
+        'Uribe, M. C. O., Arce, D. C. O., & Navarrete, C. E. (2019). Factores de riesgo en el crecimiento y desarrollo de niños preescolares Cali 2018.',
+      link: 'https://www.redalyc.org/journal/559/55964256021/html/',
+    },
+    {
+      referencia:
+        'Ferrer Arrocha, Marlene, Fernández Rodríguez, Celia, & González Pedroso, María Teresa. (2020). Factores de riesgo relacionados con el sobrepeso y la obesidad en niños de edad escolar. Revista Cubana de Pediatría, 92(2),',
       link:
-        'https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1358/LEC%20PSIC%200036%202020.pdf?sequence=1&isAllowed=y',
+        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0034-75312020000200004&lng=es&tlng=es',
     },
     {
       referencia:
-        'Gómez, Mejía. S. (2015) Teoría del juicio moral de Kohlberg.',
+        'UniProyecta. (2022, 27 septiembre). Definición de desnutrición según la OMS. UniProyecta.',
+      link: 'https://uniproyecta.com/definicion-de-desnutricion-segun-la-oms/',
+    },
+    {
+      referencia:
+        'Paolini, C. I., Oiberman, A., & Mansilla, M. (2017). Desarrollo cognitivo en la primera infancia: influencia de los factores de riesgo biológicos y ambientales.',
       link:
-        'https://repository.uaeh.edu.mx/revistas/index.php/prepa3/article/view/13774/12064',
+        'https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1852-73102017000200008',
     },
     {
       referencia:
-        'Triglia, A. (2024, octubre 14). La teoría del desarrollo moral de Lawrence Kohlberg.',
+        'Gómez Fernández, L. (2024). Factores clave en el desarrollo cognitivo infantil.',
       link:
-        'https://psicologiaymente.com/desarrollo/teoria-desarrollo-moral-lawrence-kohlberg',
+        'https://nanoskids.es/factores-que-influyen-en-el-desarrollo-cognitivo-infantil/',
     },
     {
       referencia:
-        'Restrepo, L. (2022, marzo 11). Teoría Visión Sistémica Ecológica según Chomsky.',
+        'Dulay, A. T. (2024, 6 marzo). Factores de riesgo para complicaciones del embarazo. Manual MSD Versión Para Profesionales.',
       link:
-        'https://studylib.es/doc/9174263/pdf-teoria-vision-sistemica-ecologica-segun-chomsky-jerry...',
+        'https://www.msdmanuals.com/es/professional/ginecolog%C3%ADa-y-obstetricia/complicaciones-prenatales/factores-de-riesgo-para-complicaciones-del-embarazo#Parto-pret%C3%A9rmino-previo_v21452928_es',
     },
     {
       referencia:
-        'Martínez del Castillo, J. G. (2013). Los fundamentos de la Teoría de Chomsky: revisión crítica: (ed.). Biblioteca Nueva.',
+        'Agudelo Saldarriaga, S., Calderón Acevedo, V., & Cano Valencia, C. (2017). Factores protectores y de riesgo psicosocial de los niños y niñas en estado de vulnerabilidad social que habitan en inquilinatos y pertenecen a la Corporación Sueños y Huellas del Mañana [Tesis Psicología, Institución Universitaria de Envigado].',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117469?page=14',
+        'https://bibliotecadigital.iue.edu.co/bitstream/20.500.12717/81/1/iue_rep_pre_psi_agudelo_2017_riesgo_psicosocial.pdf',
     },
     {
-      referencia:
-        'Pérez, J. Jiménez, L. (2023, noviembre 11). Teoría DE la Visión sistémica Ecológica Noam Chomsky.Prezi.com.',
+      referencia: 'Factores psicosociales en la niñez – MAS VIDA. (s. f.).',
       link:
-        'https://prezi.com/p/mvruqg8cpwg6/teoria-de-la-vision-sistemica-ecologica-noam-chomsky/',
+        'https://masvida.org.ar/eii-life-ninez/factores-psicosociales-en-la-ninez/',
     },
     {
       referencia:
-        'Longo, B. (2020, enero 31). Teoría del aprendizaje social de Bandura.Psicologia-online.com.',
+        'Robledo, R., García, P., & Nicasio, J. (2008). El contexto familiar y su papel en el desarrollo socio-emocional de los niños: revisión de estudios empíricos[1] . INFAD Revista de Psicología, 4, (núm. 1, 2008, pp. 75-82), SSN (Versión impresa): 0214-9877.',
+      link: 'https://www.redalyc.org/pdf/3498/349832319007.pdf',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Bienestar Familiar. ICBF. (2021). Orientaciones para el acompañamiento psicosocial con los niños, las niñas, los adolescentes y sus familias (Edición noviembre, Vol. 1).',
       link:
-        'https://www.psicologia-online.com/teoria-del-aprendizaje-social-de-bandura-4915.html',
+        'https://www.icbf.gov.co/system/files/procesos/pu4.p_cartilla_orientaciones_para_el_acompanamiento_psicosocial_con_los_nna_y_sus_familias_v1.pdf',
     },
     {
       referencia:
-        'Triglia, A. (2015, mayo 30). La Teoría del Aprendizaje Social de Albert Bandura. pymOrganization.',
+        'Dale, F. H. (2005). Relaciones tempranas entre pares y sus Impactos en el Desarrollo Infantil. Enciclopedia Sobre el Desarrollo En la Primera Infancia.',
       link:
-        'https://psicologiaymente.com/social/bandura-teoria-aprendizaje-cognitivo-social',
+        'https://www.enciclopedia-infantes.com/pdf/expert/relaciones-entre-pares/segun-los-expertos/relaciones-tempranas-entre-pares-y-sus-impactos-en-el',
     },
     {
       referencia:
-        'Rodríguez Palmero, M. L. (2013). La teoría del aprendizaje significativo en la perspectiva de la psicología cognitiva: ( ed.). Ediciones Octaedro, S.L.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/61891?page=5',
+        'Terapify. (2024). Salud mental en niños: ¿qué es y por qué es importante?',
+      link: 'https://www.terapify.com/blog/salud-mental-en-ninos/',
     },
   ],
   glosario: [
     {
-      termino: 'Adaptabilidad',
+      termino: 'Abandono',
       significado:
-        'Capacidad del lenguaje o comportamiento para ajustarse a las necesidades y características del entorno social, cultural o ecológico.',
+        'La falta de atención o cuidado adecuado por parte de los cuidadores principales, lo que puede afectar el desarrollo emocional y social de los niños.',
     },
     {
-      termino: 'Andamiaje',
+      termino: 'Aislamiento',
       significado:
-        'Estrategia de apoyo temporal utilizada en el aprendizaje para ayudar a un individuo a alcanzar un nivel de competencia mayor, como lo explicó Vygotsky en su teoría sociocultural.',
+        'La ausencia de interacciones sociales saludables, que puede limitar las habilidades sociales y causar problemas emocionales como ansiedad o depresión.',
     },
     {
-      termino: 'Competencia lingüística',
+      termino: 'Bullying',
       significado:
-        'Conocimiento implícito de las reglas gramaticales que permite a una persona comprender y producir un idioma, según lo planteado por Chomsky.',
+        'Conducta agresiva y repetida entre pares que puede generar estrés, inseguridad y problemas psicológicos en los niños.',
     },
     {
-      termino: 'Egocentrismo moral',
+      termino: 'Desnutrición',
       significado:
-        'Fase inicial del razonamiento moral en la que las decisiones se toman basándose únicamente en el interés propio, como ocurre en la fase preconvencional de Kohlberg.',
+        'Insuficiencia en la ingesta de nutrientes esenciales, afectando el desarrollo físico y cognitivo de los niños.',
     },
     {
-      termino: 'Estructura jerárquica',
+      termino: 'Estigma',
       significado:
-        'Organización de los componentes del lenguaje (como frases y palabras) en niveles interrelacionados, un concepto esencial en la gramática generativa de Chomsky.',
+        'Prejuicios sociales hacia niños que enfrentan problemas de salud mental o condiciones diferentes, limitando su integración social.',
     },
     {
-      termino: 'Gramática universal',
+      termino: 'Maltrato',
       significado:
-        'Conjunto de principios innatos y comunes a todas las lenguas humanas, según la teoría de Noam Chomsky.',
+        'Abuso físico, emocional o psicológico que puede tener consecuencias graves en el bienestar mental y físico de los niños.',
     },
     {
-      termino: 'Internalización',
+      termino: 'Pobreza',
       significado:
-        'Proceso por el cual las interacciones sociales se transforman en habilidades psicológicas internas, un concepto clave en la teoría de Vygotsky.',
+        'Condición socioeconómica que puede limitar el acceso de los niños a servicios básicos, alimentación y educación, aumentando la vulnerabilidad física y emocional.',
     },
     {
-      termino: 'Motivación',
+      termino: 'Sobreexigencia',
       significado:
-        'Impulso interno o externo que mueve a un individuo a actuar o aprender, esencial en los procesos de aprendizaje por observación.',
+        'Presión excesiva en el rendimiento académico o deportivo, lo que puede derivar en estrés crónico y ansiedad.',
     },
     {
-      termino: 'Procesamiento del lenguaje natural (PLN)',
+      termino: 'Trauma',
       significado:
-        'Rama de la inteligencia artificial que se enfoca en enseñar a las máquinas a comprender y generar lenguaje humano de manera efectiva, influenciado por principios lingüísticos chomskyanos.',
+        'Experiencia impactante o dolorosa, como desastres naturales o pérdida de un ser querido, que afecta el bienestar emocional y psicológico.',
     },
     {
-      termino: 'Zona de desarrollo próximo (ZDP)',
+      termino: 'Violencia',
       significado:
-        'Distancia entre lo que un individuo puede lograr por sí mismo y lo que puede alcanzar con ayuda, según la teoría de Vygotsky.',
+        'Exposición a actos agresivos en el hogar, la escuela o la comunidad que impactan el desarrollo emocional, social y físico de los niños.',
     },
   ],
 }
