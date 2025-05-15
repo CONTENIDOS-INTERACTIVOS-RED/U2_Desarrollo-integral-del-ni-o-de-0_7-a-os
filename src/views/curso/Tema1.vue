@@ -33,7 +33,7 @@
               p.px-1.text-small.mb-0.text-center Condiciones que aumentan la probabilidad de enfermedades o problemas de salud infantil.
           .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-7.svg', style='width: 80px')
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Asociación Argentina de Orientadores Familiares
               p.px-1.text-small.mb-0.text-center Agentes personales, familiares o socioculturales que promueven situaciones o conductas no deseadas.
           .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
@@ -96,13 +96,13 @@
       .tarjeta.bg-white.p-4(x='69%' y='42%' numero='+')
         .h5.mb-2 02. Falta de resolución pacífica de conflictos
         p Puede predisponer al niño a involucrarse en situaciones de riesgo.
-      .tarjeta.bg-white.p-4(x='71%' y='87%' numero='+')
+      .tarjeta.bg-white.p-4(x='39%' y='85%' numero='+')
         .h5.mb-2 03. Problemas de aprendizaje
         p Se manifiestan dificultades  en la lectura y escritura.
       .tarjeta.bg-white.p-4(x='55%' y='85%' numero='+')
         .h5.mb-2 04. Retracción social
         p Obstaculiza la interacción con otros y puede derivar en aislamiento.
-      .tarjeta.bg-white.p-4(x='39%' y='85%' numero='+')
+      .tarjeta.bg-white.p-4(x='71%' y='87%' numero='+')
         .h5.mb-2 05. Trastorno por Déficit de Atención e Hiperactividad (TDAH)
         p Afecta el control de impulsos y puede agravar conductas agresivas, impactando negativamente el desarrollo social y emocional del niño.
 
@@ -219,7 +219,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Factores que inciden en el estado nutricional y el desarrollo infantil
           p.mb-5(data-aos="fade-up") Se invita a leer el documento Factores que inciden en el estado nutricional y el desarrollo infantil, donde se analizan los principales elementos biológicos, sociales y ambientales que influyen en la salud y el crecimiento de los niños. Este material ofrece explicaciones basadas en evidencia científica, aborda riesgos como la obesidad, la desnutrición y los trastornos del sueño, y plantea sus causas, consecuencias e implicaciones en el desarrollo integral.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Factores_que_inciden.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Factores que inciden en el estado nutricional y el desarrollo infantil
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

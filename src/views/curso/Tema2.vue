@@ -176,7 +176,7 @@
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Factores que afectan el desarrollo cognitivo infantil: riesgos postnatales, trastornos neurológicos y estimulación
             p.mb-5(data-aos="fade-up") Se invita a leer el documento Factores que afectan el desarrollo cognitivo infantil, donde se abordan las condiciones postnatales, neurológicas y ambientales que inciden en el desarrollo intelectual de los niños.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Factores_que_afectan.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Factores que afectan el desarrollo cognitivo infantil: riesgos postnatales, trastornos neurológicos y estimulación
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")

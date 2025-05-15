@@ -2,7 +2,7 @@ export default {
   global: {
     numeroUnidad: '2',
     tituloUnidad:
-      'Factores de riesgo en el desarrollo integral de la primera infancia',
+      'Factores de riesgo biológicos, psicológicos y sociales que pueden afectar el desarrollo en el niño de 0 a 7 años.',
   },
   menuPrincipal: {
     menu: [

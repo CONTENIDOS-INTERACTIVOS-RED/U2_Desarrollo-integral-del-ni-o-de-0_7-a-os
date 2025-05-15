@@ -24,14 +24,17 @@
       h2 Enfermedades crónicas y su impacto emocional
       p.mb-4 La <b>Fundación Más Vida (s/f)</b> advierte que, desde edades tempranas, los niños enfrentan situaciones difíciles como conflictos familiares o escolares. En casos de enfermedades crónicas, como afecciones inflamatorias intestinales, estas dificultades pueden intensificarse, generando emociones como <b>miedo, tristeza o ansiedad</b>.
 
-      .row.mb-4.bg-morado.bg-full-width
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex
-          .my-auto
-            p.mb-4 Sentirse “diferente” es una respuesta común. Aunque muchos niños se adaptan con el tiempo, es fundamental estar atentos a señales de malestar como:
-            p.mb-4 ●	Problemas para dormir<br><br>●	Falta de apetito<br><br>●	Tristeza persistente o llanto frecuente<br><br>●	Desinterés por actividades habituales
-            span En estos casos, el acompañamiento afectivo y la <b>comunicación abierta</b> con adultos de confianza es esencial. Validar sus emociones, reforzar que pueden tener una vida activa con tratamiento adecuado y brindar seguridad para expresar lo que sienten, son acciones fundamentales.
+      .row.bg-morado.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3
+      
+          .row.mb-4
+            .col-4.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-8.d-flex
+              .my-auto
+                p.mb-4 Sentirse “diferente” es una respuesta común. Aunque muchos niños se adaptan con el tiempo, es fundamental estar atentos a señales de malestar como:
+                p.mb-4 ●	Problemas para dormir<br><br>●	Falta de apetito<br><br>●	Tristeza persistente o llanto frecuente<br><br>●	Desinterés por actividades habituales
+                span En estos casos, el acompañamiento afectivo y la <b>comunicación abierta</b> con adultos de confianza es esencial. Validar sus emociones, reforzar que pueden tener una vida activa con tratamiento adecuado y brindar seguridad para expresar lo que sienten, son acciones fundamentales.
 
       h2 El rol de los adultos
       .row.mb-4
@@ -199,19 +202,22 @@
       h2 Importancia de los estilos parentales en el desarrollo infantil
       p.mb-4 Los estilos educativos repercuten directamente en aspectos clave del desarrollo:
 
-      .row.mb-0.bg-morado.bg-full-width
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-70.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex
-          .my-auto
-            p.mb-0 ●	<b>Desarrollo emocional.</b> El estilo autoritativo favorece la regulación emocional y la empatía.<br><br>●	<b>Socialización.</b>. Un entorno afectivo y con límites claros facilita relaciones sanas con otros.<br><br>●	<b>Autonomía</b>. La combinación de apoyo y exigencia impulsa la toma de decisiones y la resolución de problemas.<br><br>●	<b>Rendimiento académico</b>. Las altas expectativas junto con el respaldo emocional aumentan el compromiso y la motivación escolar.
+      .row.bg-morado.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3
+      
+          .row
+            .col-4.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-70.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-8.d-flex
+              .my-auto
+                p.mb-0 ●	<b>Desarrollo emocional.</b> El estilo autoritativo favorece la regulación emocional y la empatía.<br><br>●	<b>Socialización.</b> Un entorno afectivo y con límites claros facilita relaciones sanas con otros.<br><br>●	<b>Autonomía</b>. La combinación de apoyo y exigencia impulsa la toma de decisiones y la resolución de problemas.<br><br>●	<b>Rendimiento académico</b>. Las altas expectativas junto con el respaldo emocional aumentan el compromiso y la motivación escolar.
 
       .row.bg-verde.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Entornos protectores y bienestar integral en la infancia: acompañamiento familiar, social y emocional
             p.mb-5(data-aos="fade-up") Se invita a leer el documento Entornos protectores y bienestar integral en la infancia, donde se aborda el papel fundamental de la familia, la comunidad, los pares y las instituciones educativas en la promoción del bienestar psicosocial y emocional de niños, niñas y adolescentes.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Entornos_protectores_y_bienestar.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Entornos protectores y bienestar integral en la infancia: acompañamiento familiar, social y emocional
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
